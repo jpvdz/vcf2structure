@@ -1,5 +1,5 @@
 # vcf2structure
-Convert variant data stored in VCF format to the STRUCTURE format. Requires a VCF file with bi-allelic SNPs and a population map, which is a CSV file containing sample IDs (first column) and population labels (second column). The columns need to be named `sample_id` and `population`.   
+Convert bi-allelic SNPs stored in VCF format to STRUCTURE format. Requires a VCF file with bi-allelic SNPs and a population map, which is a CSV file containing sample IDs (first column) and population labels (second column). The columns need to be named `sample_id` and `population`.   
 
 ## Dependencies
 Requires the `scikit-allel`, `numpy` and `pandas` packages. 
