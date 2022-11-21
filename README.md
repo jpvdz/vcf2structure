@@ -4,7 +4,7 @@ Convert bi-allelic SNPs stored in VCF format to STRUCTURE format. Requires a VCF
 ## Dependencies
 Requires *scikit-allel*, *numpy* and *pandas*. I recommend creating a Python virtual environment and installing the dependencies from the requirements file:
 
-`python -m venv .venv`
+`python3 -m venv .venv`
 
 `source .venv/bin/activate`
 
