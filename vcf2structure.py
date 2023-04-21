@@ -12,8 +12,8 @@ def get_nucleotide(variants, ref, alt):
     '''
 
     # create boolean vectors encoding whether a variant is the reference or the alternate allele
-    is_ref = ~np.array(variants, dtype=bool)
-    is_alt = np.array(variants, dtype=bool)
+    is_ref = variants == 0
+    is_alt = variants > 0
 
     # determine nucleotides
     nucleotides = (ref * is_ref) + (alt * is_alt)
