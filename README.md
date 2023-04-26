@@ -19,4 +19,7 @@ Or alternatively:
 
 `python3 vcf2structure.py example.vcf example_popmap.csv example.str False`
 
-If you instead want samples encoded on a single row (and each locus encoded over two columns, with one allele per column) set the fourth argument to *True*. 
+If you instead want samples encoded on a single row (and each locus encoded over two columns, with one allele per column) set the fourth argument to *True*.
+
+## Archival notice
+The functionality of this script has been integrated into [`VCF2PopGen`](https://github.com/jpvdz/vcf2popgen), so this repository has been archived.
